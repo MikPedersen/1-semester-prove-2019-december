@@ -1,6 +1,6 @@
 package Quiz;
 
-public class Sporgsmaal {
+public class Sporgsmaal implements Translatable {
     private String sporgsmaal;
     private int point;
     private String svarmulighed1;
