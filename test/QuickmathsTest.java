@@ -1,17 +1,14 @@
-import org.junit.Test;
+import junit.framework.TestCase;
 
-import static org.junit.Assert.*;
+public class QuickmathsTest extends TestCase {
 
-public class QuickmathsTest {
-
-    @Test
-    public void testSum() {
-        // TODO Din kode her
+    public void testgennemsnit() {
+       int resultat = Quickmaths.gennemsnit(5,19);
+       assertEquals(12, resultat);
     }
 
-    @Test
-    public void testGennemsnit() {
-        // TODO Din kode her
+    public void testsum() {
+        int resultat = Quickmaths.sum(5,7);
+        assertEquals(12, resultat);
     }
-
 }
