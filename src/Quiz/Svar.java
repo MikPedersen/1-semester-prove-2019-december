@@ -1,5 +1,5 @@
 package Quiz;
-
+//klassen svar med variabler og getters/setters.
 public class Svar implements Translatable{
 
     private String svar;

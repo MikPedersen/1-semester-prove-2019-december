@@ -27,6 +27,7 @@ public class Loops {
 
     /**
      * Viser en liste med brugere i konsollen
+     * for loop kører brugerne igennem
      */
     public void printBrugereArr() {
         for (int i = 0; i <brugere.length; i++) {
@@ -34,9 +35,7 @@ public class Loops {
         }
     }
 
-    /**
-     * Viser en liste med brugere i konsollen i omvendt rækkefølge
-     */
+    //for loop kører array gennem baglæns
     //Husk -1 da array altid started med at indsætte på position 0
     public void printBrugereReverseArr() {
         for (int i = brugere.length - 1; i >= 0; i--) {

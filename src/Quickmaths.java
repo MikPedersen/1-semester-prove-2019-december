@@ -7,15 +7,17 @@
 import java.util.Scanner;
 
 public class Quickmaths {
-
+    //udregner gennemsnittet af a og b
     public static int gennemsnit(int a, int b){
         int resultgennemsnit = (a + b)/2;
         return resultgennemsnit;
     }
+    //udregner summen af a og b
     public static int sum(int a, int b){
         int resultsum = a + b;
         return resultsum;
     }
+    //metode som kører et loop med udregninger
     public static void start(){
         Scanner input = new Scanner(System.in);
 

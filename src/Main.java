@@ -7,10 +7,7 @@
 
 public class Main {
 
-    /*public String hello(String navn) {
-        return "";
-    }*/
-
+   //metode som klarer opgave 1
     public static String hello(String navn) {
         if (navn == "András") {
             return "Hello " + navn + "!";

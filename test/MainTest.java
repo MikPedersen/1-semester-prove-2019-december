@@ -2,7 +2,7 @@ import junit.framework.TestCase;
 
 public class MainTest extends TestCase {
 
-
+    //kalder metoderne til test vha assertequals
     public void testHelloAndras() {
 
         Main m = new Main();

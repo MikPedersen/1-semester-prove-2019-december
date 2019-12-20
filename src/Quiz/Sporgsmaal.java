@@ -1,5 +1,6 @@
 package Quiz;
-
+//klassen spørgsmål med variabler der tildeles getters og setters,
+// og dertilhørende metoder og constructors jævnfør opgaven
 public class Sporgsmaal implements Translatable {
     private String sporgsmaal;
     private int point;

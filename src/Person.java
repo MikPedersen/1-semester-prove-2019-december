@@ -8,7 +8,7 @@ import java.util.Date;
  */
 
 public class Person {
-
+    //Variabler rettet til
     String navn; // Test Testesen
     int alder; // 18
     String by; // Næstved
@@ -28,18 +28,22 @@ public class Person {
     public String toString() {
         return "Navn: " + navn + "By" + by;
     }
+
+    //Her typecastes variablerne om til en ny type
     int vaegt2 = (int) vaegt;
     byte hojde2 = (byte) hojde;
 
 
     public static void main(String[] args) {
-
+        //Her oprettes et person objekt, og han tildeles nogle parametre
         Person person = new Person();
         person.navn = "Test Testesen";
         person.by = "Næstved";
+        //Eksempler på typecasting
         person.vaegt = (long) 670000000;
         person.husnummer = String.valueOf((int) 32);
         person.postNummer = Integer.parseInt( "4700");
+        //udskriver værdierne der er typecastet
         System.out.println(person.husnummer + " " + person.postNummer);
 
 

@@ -2,6 +2,8 @@ import junit.framework.TestCase;
 
 public class QuickmathsTest extends TestCase {
 
+    //kalder metoderne til test vha assertequals
+
     public void testgennemsnit() {
        int resultat = Quickmaths.gennemsnit(5,19);
        assertEquals(12, resultat);

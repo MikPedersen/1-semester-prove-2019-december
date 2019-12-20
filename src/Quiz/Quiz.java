@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Quiz {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        //Opretter et spørgsmål sætter parametre
+        //Opretter et spørgsmål og sætter parametre
         Sporgsmaal sporgsmaal = new Sporgsmaal();
         Svar svar = new Svar();
         sporgsmaal.setSporgsmaal("Hvor lang er afleveringsperioden på 1. semester prøven");
@@ -15,6 +15,7 @@ public class Quiz {
         System.out.println(sporgsmaal.getSporgsmaal());
         System.out.println(sporgsmaal.getSvarmulighed1() + ", " + sporgsmaal.getSvarmulighed2() + " eller " + sporgsmaal.getSvarmulighed3());
         svar.setSvar(input.nextLine());
+        //Loopet kører til brugeren gætter rigtigt
         while (!sporgsmaal.getRigtigtSvar().equals(svar.getSvar())){
             System.out.println("Forkert prøv igen");
             svar.setSvar(input.nextLine());

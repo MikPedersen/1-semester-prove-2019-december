@@ -1,1 +1,1 @@
-Database will be here. 
+Jeg kunne ikke overføre databasen som sql fil. Efter lang tids søgen måtte jeg give op. Og gå videre til næste opgave.
