@@ -1,3 +1,6 @@
+import java.awt.*;
+import java.util.Scanner;
+
 /**
  * Developed by András Ács (acsandras@gmail.com)
  * Zealand / www.zealand.dk
@@ -26,22 +29,28 @@ public class Loops {
      * Viser en liste med brugere i konsollen
      */
     public void printBrugereArr() {
-
-        // TODO Din kode her
+        for (int i = 0; i <brugere.length; i++) {
+            System.out.println(brugere[i]);
+        }
     }
 
     /**
      * Viser en liste med brugere i konsollen i omvendt rækkefølge
      */
+    //Husk -1 da array altid started med at indsætte på position 0
     public void printBrugereReverseArr() {
+        for (int i = brugere.length - 1; i >= 0; i--) {
+            System.out.println(brugere[i]);
+        }
 
-        // TODO Din kode her
 
     }
 
     public void waitingFor0() {
-
-        // TODO Din kode her
+        Scanner input = new Scanner(System.in);
+        while (input.nextInt() != 0){
+            System.out.println("Enter a number");
+        }
  
     }
 }
